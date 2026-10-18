@@ -1,0 +1,14 @@
+appId: com.aichallenge.filehelper
+productName: ai-challenge-filehelper
+directories:
+  output: release
+  buildResources: build
+files:
+  - out/**
+  - package.json
+win:
+  target:
+    - portable
+  signAndEditExecutable: false
+portable:
+  artifactName: ai-challenge-filehelper.exe
